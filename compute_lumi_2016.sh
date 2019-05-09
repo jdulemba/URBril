@@ -1,5 +1,5 @@
 
-for i in $(ls data_*.final_run.json); do
+for i in $(ls data_*.run.json); do
 		filename=$(basename "$i")
 		name="${filename%.*}"
 		name="${name%.*}"
