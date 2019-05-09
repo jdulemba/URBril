@@ -14,7 +14,7 @@ source env.sh
 
 ## Checks
 
- * ```Normtag to use```: https://twiki.cern.ch/twiki/bin/viewauth/CMS/TWikiLUM
+ * ```Normtag and Golden json to use for each year```: https://twiki.cern.ch/twiki/bin/viewauth/CMS/TWikiLUM
 ## Content
 
  * ```compute_lumi_YEAR.sh```: Usage copy all the ```.run.json``` files in your inputs directory and then run ```bash < compute_lumi_YEAR.sh``` where YEAR indicates which run (2016, 2016legacy, 2017, and 2018 as of now), computes the lumi for all the files present, including the total pileup profile with systematics. Copy back all the ```.lumi``` and ```.root``` files
